@@ -4,7 +4,7 @@
 usuarios aprovechándose de nuestro desconocimiento o vulnerabilidades en nuestras defensas.
 Sus objetivos son muchos y pueden tener distintas consecuencias para el usuario.</p>
 
-<h2> *Ataques a contraseñas </h2>
+<h2> *Ataques a Contraseñas </h2>
 
 <p>Los ciberdelincuentes se sirven de diversas técnicas y herramientas con las que atacar a nuestras credenciales. 
 Los usuarios no siempre les dificultamos esta tarea, y solemos caer en malas prácticas que ponen en peligro 
@@ -29,8 +29,8 @@ correcto.</p>
 nuestra contraseña. Para ello, realiza diferentes comprobaciones, empezando con letras simples 
 como “a”, “AA” o “AAA” y, progresivamente, va cambiando a palabras más complejas.</p>
 
-
-<h2>*Ataques por ingeniería social</h2>
+<br>
+<h2>*Ataques por Ingeniería Social</h2>
 <p>Los ataques por ingeniería social se basan en un conjunto de técnicas dirigidas a nosotros, los usuarios, con 
 el objetivo de conseguir que revelemos información personal o permita al atacante tomar control de nuestros 
 dispositivos. Existen distintos tipos de ataques basados en el engaño y la manipulación, aunque sus consecuencias 
@@ -73,7 +73,7 @@ contra nosotros para otro tipo de ataques.</p>
 Internet sin haber sido solicitados, es decir, se trata de mensajes no deseados. La mayoría 
 tienen una finalidad comercial, aunque puede haberlos que contengan algún tipo de malware.</p>
 
-
+<br>
 <h2>*Ataques a las conexiones</h2>
 <p>Los ataques a las conexiones inalámbricas son muy comunes, y los ciberdelincuentes se sirven de diversos 
 software y herramientas con las que saltarse las medidas de seguridad e infectar o tomar control de nuestros 
@@ -125,12 +125,10 @@ el servidor. Con ello, el atacante puede llegar a identificarse como la víctima
 <p>&nbsp&nbsp&nbsp<b> -- Envenenamiento de cookies:</b> Sirviéndose de la misma vulnerabilidad, el atacante puede llegar a modificar el valor 
 recogido en la cookie. Por ejemplo, para modificar el precio que hemos pagado por un artículo en una tienda online. </p>
 
-
 <h3>Ataque DDoS</h3>
 <p>DDoS son las siglas en inglés de “Ataque distribuido de denegación de servicio” y consiste 
 en atacar un servidor web al mismo tiempo desde muchos equipos diferentes para que 
 deje de funcionar al no poder soportar tantas peticiones</p>
-
 
 <h3>Inyección SQL</h3>
 <p>Las páginas webs suelen estar vinculadas a bases de datos, basadas en un lenguaje de programación conocido como SQL. Este tipo de 
@@ -139,12 +137,10 @@ o completo a los datos, pudiendo ser monitorizados, modificados o robados por el
 SQL es un lenguaje de programación utilizado para interactuar con bases de datos. Los ciberdelincuentes atacan a una aplicación web 
 basada en este tipo de lenguaje, comprometiendo la base de datos mediante líneas de código malicioso.</p>
 
-
 <h3>Escaneo de puertos</h3>
 <p>El ataque de escaneo de puertos, o portscan, es el proceso en el que se analiza automáticamente los puertos de una 
 máquina conectada a la red con la finalidad de analizar los puertos e identificar cuáles están abiertos, cerrados o 
 cuentan con algún protocolo de seguridad. </p>
-
 
 <h3>Man in the middle</h3>
 <p>Este tipo de ataque requiere que el atacante se sitúe entre nosotros y el servidor con el que nos estamos comunicando. </p>
@@ -156,8 +152,81 @@ malintencionada para monitorizar el tráfico de una red. Los sniffers no son vir
 reproducirse por sí mismos y deben ser controlados por terceras personas. Pueden ser instalados 
 como cualquier otro programa con o sin nuestro consentimiento.</p>
 
+<br>
 <h2>Ataques por Malware</h2>
-<p></p>
+<p>Los ataques por malware se sirven de programas maliciosos cuya funcionalidad consiste en llevar a cabo 
+acciones dañinas en un sistema informático y contra nuestra privacidad. Generalmente, buscan robar 
+información, causar daños en el equipo, obtener un beneficio económico a nuestra costa o tomar el control de 
+su equipo. Dependiendo del modus operandi, y de la forma de infección, existen distintas categorías de malware. Las medidas de 
+protección, por el contrario, son muy similares para todos ellos y se basan en mantener activas y actualizadas las 
+herramientas de protección antimalware.</p>
 
-<h3></h3>
-<p></p>
+<h3>Virus</h3>
+<p>Los virus se encuentran dentro de la categoría de malware y están diseñados para copiarse a 
+sí mismos y propagarse a tantos dispositivos como les sea posible. Proliferan infectando aplicaciones, a través del 
+correo electrónico u otros servicios web, y pueden transmitirse por medio de dispositivos extraíbles, 
+como memorias USB o archivos adjuntos, incluso a través de conexiones de red</p>
+
+<h3>Adware</h3>
+<p>Se trata de un software malicioso diseñado para mostrarnos anuncios no deseados de forma masiva. Suelen instalarse junto a otros programas legítimos que, sin que nos percatemos, aceptamos y terminamos por instalar en el equipo.</p>
+
+<h3>Spyware</h3>
+<p>Este malware se instala en nuestros equipos y comienza a recopilar información, supervisando 
+toda su actividad para luego compartirlo con un usuario remoto. También es capaz de descargar 
+otros malware e instalarlos en el equipo. Al navegar por páginas webs no seguras, pueden 
+aparecer mensajes en forma de anuncios o pop-ups que, al hacer clic, descarguen este tipo de malware. 
+También es común que se ejecuten como programas adicionales durante la instalación de un software.</p>
+
+<h3>Troyanos</h3>
+<p>Los troyanos suelen camuflarse como un software legítimo para infectar nuestro equipo, o a través de ataques de ingeniería social.
+A menudo, se propagan por medio de archivos adjuntos en correos electrónicos o desde páginas 
+webs poco fiables, escondiéndose tras descargas de juegos, películas o aplicaciones no legítimas. 
+Nosotros, confiados, no somos conscientes de que nuestros equipos han sido infectados hasta que es 
+demasiado tarde.</p>
+<p>&nbsp&nbsp&nbsp<b>-- Backdoors</b></p>
+<p>Una vez instalado en el sistema, permitirá al ciberdelincuente tomar el control del equipo 
+de forma remota. Suelen utilizarse para infectar a varios dispositivos y formar una red zombi o Botnet.</p>
+<p>&nbsp&nbsp&nbsp<b> --Keyloggers</b></p>
+<p>Los Keyloggers realizan un seguimiento y registran cada tecla que se pulsa en un equipo 
+sin nuestro consentimiento. Pueden estar basados en un software o en un hardware, como por ejemplo un dispositivo USB.</p>
+<p>&nbsp&nbsp&nbsp<b> --Stealers</b></p>
+<p>Este tipo de troyano accede a la información privada almacenada en el equipo. Al ejecutarse, 
+analiza los programas instalados y las credenciales almacenadas para luego, compartirlas con el atacante.</p>
+<p>&nbsp&nbsp&nbsp<b> --Ransomware</b></p>
+<p>Se trata de un tipo de malware que consigue tomar el control del dispositivo para cifrar el acceso al mismo 
+y/o nuestros archivos o discos duros. A cambio de recuperar el control y la información, nos exigirá el 
+pago de un rescate.</p>
+
+<h3>Gusano</h3>
+<p>Se trata de un tipo de malware que, una vez ejecutado en un sistema, puede modificar el código 
+o las características de este. Generalmente, pasan inadvertidos hasta que su proceso de reproducción 
+se hace evidente, produciendo consecuencias en el rendimiento de nuestro equipo</p>
+
+<h3>Rootkit</h3>
+<p>Un Rootkit es un conjunto de herramientas utilizadas por los ciberdelincuentes para acceder de forma 
+ilícita a un sistema. Una vez dentro, se utilizarán para mantener al atacante con acceso al sistema y poder 
+llevar a cabo otro tipo de ciberataques</p>
+
+<h3>Botnets</h3>
+<p>Así se conoce a la red compuesta por diversos dispositivos infectados y controlados de forma 
+remota por uno o varios ciberdelincuentes. Para infectar un equipo, los atacantes suelen recurrir 
+a códigos maliciosos en páginas webs tras explotar una vulnerabilidad. Una vez que accedemos a la web, 
+nuestro equipo queda infectado sin ser consciente de ello. También suelen recurrir al envío de archivos 
+maliciosos a través de mensajes por Internet, como el correo electrónico.</p>
+
+<h3>Rogueware</h3>
+<p>Se trata de un software malicioso que simula ser un antivirus o herramienta de seguridad y que nos alerta 
+de un problema con nuestros dispositivos. Pueden alertar sobre la presencia de un malware, una amenaza o 
+un problema que hay que corregir. Rápidamente, nos invitará a hacer clic en un botón o enlace para descargar un 
+supuesto software con el que solucionar el problema.</p>
+
+<h3>Criptojacking</h3>
+<p>El Criptojacking es una práctica por medio de la cual, los ciberdelincuentes utilizan 
+nuestros dispositivos sin nuestro consentimiento para llevar a cabo “extracciones” 
+de criptomonedas. Durante el proceso, utilizan los recursos del sistema.</p>
+
+<h3>Apps maliciosas</h3>
+<p>Las Apps maliciosas se hacen pasar por aplicaciones legítimas o tratan de emular a otras aplicaciones de éxito. Una vez instaladas 
+en el dispositivo, nos pedirán una serie de permisos abusivos o, por el contrario, harán un uso fraudulento de dichos permisos.</p>
+
+
