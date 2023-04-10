@@ -63,22 +63,100 @@ nos incitan a compartir nuestros datos o descargar software malicioso.</p>
 concretos, mirando “por encima del hombro” desde una posición cercana, mientras que utilizamos los 
 dispositivos sin darnos cuenta.</p>
 
-<h3></h3>
-<p></p>
+<h3>Dumpster Diving</h3>
+<p>En ciberseguridad, se conoce como el proceso de “buscar en nuestra basura” para obtener 
+información útil sobre nuestra persona o nuestra empresa que luego pueda utilizarse 
+contra nosotros para otro tipo de ataques.</p>
 
-<h3></h3>
-<p></p>
+<h3>Spam</h3>
+<p>Consiste en el envío de grandes cantidades de mensajes o envíos publicitarios a través de 
+Internet sin haber sido solicitados, es decir, se trata de mensajes no deseados. La mayoría 
+tienen una finalidad comercial, aunque puede haberlos que contengan algún tipo de malware.</p>
 
-<h3></h3>
-<p></p>
 
-<h3></h3>
-<p></p>
+<h2>*Ataques a las conexiones</h2>
+<p>Los ataques a las conexiones inalámbricas son muy comunes, y los ciberdelincuentes se sirven de diversos 
+software y herramientas con las que saltarse las medidas de seguridad e infectar o tomar control de nuestros 
+dispositivos. Generalmente, este tipo de ataques se basan en interponerse en el intercambio de información entre 
+nosotros y el servicio web, para monitorizar y robar datos personales, bancarios, contraseñas, etc.</p>
 
-<h3></h3>
-<p></p>
+<h3>Redes trampa</h3>
+<p>La creación de redes wifi falsas es una práctica muy utilizada por los ciberdelincuentes. Consiste en la creación de una red wifi gemela a otra legítima y segura, con un nombre igual o muy similar a la original, que crean utilizando software y hardware. Luego, la configuran con los mismos parámetros que la original, esperando que nos conecte a esta.</p>
+<p>Este tipo de ataques suelen darse en lugares con una red wifi pública, con gran afluencia de usuarios. De 
+modo que su red falsa pueda pasar desapercibida y engañe al mayor número de víctimas posible.</p>
 
-<h3></h3>
+<h3>Spoofing</h3>
+<p>Consiste en el empleo de técnicas de hacking de forma maliciosa para suplantar nuestra identidad, 
+la de una web o una entidad. Se basa en tres partes: el atacante, la víctima y el sistema o entidad virtual 
+que va a ser falsificado.El objetivo de los atacantes es, mediante esta 
+suplantación, disponer de un acceso a nuestros datos. Según el tipo de Spoofing, la suplantación y el 
+engaño se llevarán a cabo de forma distinta. Como protección, es fundamental que 
+nos mantengamos alerta y sigamos las recomendaciones para una navegación segura.</p>
+<p>&nbsp&nbsp&nbsp<b>--IP Spoofing</b></p>
+<p>El ciberdelincuente consigue falsear su dirección IP y hacerla pasar por una dirección distinta. De este 
+modo, consigue saltarse las restricciones del router del servidor o del nuestro y, por ejemplo, hacernos 
+llegar un paquete con malware</p>
+<p>&nbsp&nbsp&nbsp<b>--Web Spoofing</b></p>
+<p>Consiste en la suplantación de una página web real por otra falsa. La web falsa es una copia 
+del diseño de la original, llegando incluso a utilizar una URL muy similar. El atacante trata de 
+hacernos creer que la web falsa es la original</p>
+<p>&nbsp&nbsp&nbsp<b>--Email Spoofing</b></p>
+<p>Consiste en suplantar la dirección de correo de una persona o entidad de confianza. También 
+suele ser usado para enviar de forma masiva correos de Spam o cadenas de bulos u otros fraudes.</p>
+<p>&nbsp&nbsp&nbsp<b>--Software Spoofing</b></p>
+<p>A través de programas maliciosos específicos y aprovechándose de vulnerabilidades en las medidas de protección, los atacantes 
+consiguen infectar y acceder a nuestro router. Así, cuando tratemos de acceder a una determinada web desde el navegador, este nos llevará 
+a otra web elegida por el atacante. Para ello, los atacantes tienen que suplantar la DNS (Domain Name System), es decir, la tecnología utilizada 
+para conocer la dirección IP del servidor donde está alojado el dominio al que queremos acceder.
+Aunque intentemos acceder a la URL correcta, el navegador nos redireccionará a la web fraudulenta, ya que el atacante habría 
+modificado la DNS.</p>
+
+<h3>*Ataques a Cookies</h3>
+<p>Las cookies se envían entre el servidor de la web y nuestro equipo, sin embargo, en páginas con protocolos http, este 
+intercambio puede llegar a ser visible para los ciberdelincuentes. Los ataques a las cookies consisten en el robo o modificación de 
+la información almacenada en una cookie. Las cookies son pequeños ficheros que contienen información de 
+las páginas webs que hemos visitado, así como otros datos de navegación, como pueden ser los anuncios vistos, el idioma, la 
+zona horaria, si hemos proporcionado una dirección de correo electrónico, etc. Su función es ayudarnos a navegar de forma 
+más rápida, recordando esta información para no tener que volver a procesarla</p>
+<p>Dentro de los ataques a las cookies, existen dos tipos con sus particularidades:</p>
+<p>&nbsp&nbsp&nbsp<b> -- Robo de cookies:</b> Aprovechando la falta de seguridad 
+en los protocolos http, los atacantes son capaces de recibir una cookie perteneciente a un intercambio entre nosotros y 
+el servidor. Con ello, el atacante puede llegar a identificarse como la víctima en la web o acceder a datos sensibles.</p>
+<p>&nbsp&nbsp&nbsp<b> -- Envenenamiento de cookies:</b> Sirviéndose de la misma vulnerabilidad, el atacante puede llegar a modificar el valor 
+recogido en la cookie. Por ejemplo, para modificar el precio que hemos pagado por un artículo en una tienda online. </p>
+
+
+<h3>Ataque DDoS</h3>
+<p>DDoS son las siglas en inglés de “Ataque distribuido de denegación de servicio” y consiste 
+en atacar un servidor web al mismo tiempo desde muchos equipos diferentes para que 
+deje de funcionar al no poder soportar tantas peticiones</p>
+
+
+<h3>Inyección SQL</h3>
+<p>Las páginas webs suelen estar vinculadas a bases de datos, basadas en un lenguaje de programación conocido como SQL. Este tipo de 
+ataque permite a los ciberdelincuentes insertar líneas de código SQL maliciosas en la propia aplicación web, obteniendo acceso parcial 
+o completo a los datos, pudiendo ser monitorizados, modificados o robados por el atacante.
+SQL es un lenguaje de programación utilizado para interactuar con bases de datos. Los ciberdelincuentes atacan a una aplicación web 
+basada en este tipo de lenguaje, comprometiendo la base de datos mediante líneas de código malicioso.</p>
+
+
+<h3>Escaneo de puertos</h3>
+<p>El ataque de escaneo de puertos, o portscan, es el proceso en el que se analiza automáticamente los puertos de una 
+máquina conectada a la red con la finalidad de analizar los puertos e identificar cuáles están abiertos, cerrados o 
+cuentan con algún protocolo de seguridad. </p>
+
+
+<h3>Man in the middle</h3>
+<p>Este tipo de ataque requiere que el atacante se sitúe entre nosotros y el servidor con el que nos estamos comunicando. </p>
+
+<h3>Sniffing</h3>
+<p>Se trata de una técnica utilizada para escuchar todo lo que ocurre dentro de una 
+red. Los atacantes utilizan herramientas de hacking, conocidas como sniffers, de forma 
+malintencionada para monitorizar el tráfico de una red. Los sniffers no son virus y, por ello, no pueden 
+reproducirse por sí mismos y deben ser controlados por terceras personas. Pueden ser instalados 
+como cualquier otro programa con o sin nuestro consentimiento.</p>
+
+<h2>Ataques por Malware</h2>
 <p></p>
 
 <h3></h3>
